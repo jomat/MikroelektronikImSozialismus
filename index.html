@@ -2,21 +2,39 @@
   <head>
     <title>Mikroelektronik im Sozialismus</title>
     <style media = "all">
-body {
-  background-color: orange;
+@font-face {
+  font-family: 'data70';
+  src: url('/tmp/Data70.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-.marx {
+body {
+  background-color: white;
+}
+#box {
+  background-color: #bf8e46;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  display: inline-block;
+  text-align: center;
+  padding: 23px;
+}
+#marx {
+  text-align: left;
   color: black;
   line-height: 80%;
 }
-.mikro {
+#mikro {
+  font-family: data70;
   color: red;
-  font-size: 50px;
+  font-size: 79px;
 }
     </style>
 </head>
   <body>
-    <div class="marx">
+    <div id="box">
+      <div id="marx">
 ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●<br />
 ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●<br />
 ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●<br />
@@ -104,10 +122,11 @@ body {
 ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●<br />
 ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●<br />
 ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●<br />
-    </div>
-    <div class="mikro">
-      Mikroelektronik im Sozialismus<br />
-      · Für das Wohl des Volkes ·
+      </div>
+      <div id="mikro">
+        Mikroelektronik im Sozialismus<br />
+        · Für das Wohl des Volkes ·
+      </div>
     </div>
   </body>
 </html>
